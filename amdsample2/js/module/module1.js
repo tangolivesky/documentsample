@@ -1,13 +1,13 @@
-define([], function() {
+define(['jquery'], function($) {
 
-    console.log('module2.js');
+    $("#module1").html("AMD");
 
     var hello = function(){
-        console.log('hello2');
+        console.log('hello');
     };
 
     var goodbye = function(){
-        console.log('goodbye2');
+        console.log('goodbye');
     };
 
     return {
